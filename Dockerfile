@@ -11,4 +11,4 @@ RUN \
 
 WORKDIR /app
 EXPOSE 8080
-CMD ["supervisor app.js"]
+CMD ["supervisor /app/app.js"]
