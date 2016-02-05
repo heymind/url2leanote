@@ -8,7 +8,7 @@ RUN \
   cd app && \
   npm install && \
   npm install supervisor -g
-
+RUN find /app
 # WORKDIR /app
 EXPOSE 8080
 CMD ["find&supervisor /app/app.js"]
