@@ -10,5 +10,5 @@ RUN \
   npm install supervisor -g
 
 WORKDIR /app
-
+EXPOSE 8080
 CMD ["supervisor app.js"]
