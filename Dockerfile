@@ -4,7 +4,7 @@ RUN \
   zypper ref && \
   zypper -n -q install nodejs-npm git && \
   git config --global http.sslVerify false && \
-  git clone https://github.com/heymind/url2leanote.git app && \
+  git clone https://github.com/heymind/url2leanote.git /app && \
   cd app && \
   npm install && \
   npm install supervisor -g
