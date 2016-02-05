@@ -1,4 +1,4 @@
-FROM opensuse:Leap
+FROM opensuse:leap
 
 RUN \
   zypper ref && \
