@@ -14,6 +14,8 @@ http://server/favour?url=<webpage location>&notebook=<笔记本的**名称**>&to
 
 ```
 http://server/favour?url=<webpage location>&notebook=<笔记本的**名称**>&email=<login email>&pwd=<login pwd>
+
+http://localhost:8080/favour?email=xxx@live.cn&pwd=xxx&url=http://www.cnblogs.com/chenmo-xpw/p/5182950.html&notebook=work
 ```
 如果服务器没挂https那么就......
 
@@ -26,7 +28,6 @@ http://server/favour?url=<webpage location>&notebookId=<笔记本的**ID**>&emai
 
 目前是**不可以**。
 因为我没看懂[API](https://github.com/leanote/leanote/tree/master/app/controllers/api)中`/note/addNote`如何把图片传上去。
-希望leanote可以把上传图片等附件的api与添加笔记的api分开。
 
 ## 服务呢？
 写好了Dokcerfile等待构建成功中。。。
